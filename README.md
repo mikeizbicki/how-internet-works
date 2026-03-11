@@ -45,6 +45,8 @@ The operation was carried out by the USS Halibut:
 
 <img width=400px src=img/uss-halibut-ssgn-587.jpg />
 
+Operational costs estimated to be > $1 billion.
+
 In 1981, Ronald Pelton sold details about Operation Ivy Bells to the Soviet embassy in Washington for $5000.
 
 He was arrested in 1985 when KGB defector Vitaly Yurchenko informed the FBI.
@@ -56,8 +58,6 @@ The wiretap device is now sitting in a museum in Moscow.
 <img width=400px src=img/wiretap.jpg />
 
 Find more details on wikipedia: <https://en.wikipedia.org/wiki/Operation_Ivy_Bells>
-
-Operational costs estimated to be > $1 billion.
 
 #### Modern NSA Wiretapping
 
