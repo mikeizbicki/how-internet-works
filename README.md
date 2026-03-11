@@ -48,6 +48,7 @@ The operation was carried out by the USS Halibut:
 Operational costs estimated to be > $1 billion.
 
 In 1981, Ronald Pelton sold details about Operation Ivy Bells to the Soviet embassy in Washington for $5000.
+(He had $65000 of debt.)
 
 He was arrested in 1985 when KGB defector Vitaly Yurchenko informed the FBI.
 
