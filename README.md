@@ -28,6 +28,9 @@ Website to monitor internet outages: <https://netblocks.org/>
 
 ### Espionage
 
+The US famously does not attack internet infrastructure to destroy it.
+Instead it uses the internet to spy.
+
 #### Operation Ivy Bells
 
 Military communications also happen over undersea cables.
