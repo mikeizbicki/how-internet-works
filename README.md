@@ -2,7 +2,7 @@
 
 ## Physical Layer
 
-Most cities to each other via underwater cables: <https://www.submarinecablemap.com/>
+Most cities connect to each other via underwater cables: <https://www.submarinecablemap.com/>
 
 These cables are laid by giant ships, with giant spools of cable:
 
@@ -11,6 +11,10 @@ These cables are laid by giant ships, with giant spools of cable:
 Notice the person for scale:
 
 <img width=400px src=img/ship2.jpg />
+
+The cables are large:
+
+<img width=400px src=img/cable.jpg />
 
 Remotely operated vehicles (ROVs) walk along the ocean shore to monitor these cables:
 
@@ -87,7 +91,26 @@ Snowden leaks (2013)
 
     <img width=400px src=img/NSA_Muscular_Google_Cloud.jpg />
 
+## Encryption
+
+HTTPS/SSH blocks most forms of spying: <https://www.eff.org/encrypt-the-web>
+
+### Defeating Encryption
+
+NSA adds backdoors into encryption algorithms:
+1. China has been known to exploit NSA-added backdoors <https://news.ycombinator.com/item?id=28404219>
+
+Sidechannel attacks:
+1. TEMPEST: <https://en.wikipedia.org/wiki/Tempest_(codename)>
+1. Timing attacks:
+    1. Discovered publicly in 2001: <https://www.usenix.org/conference/10th-usenix-security-symposium/timing-analysis-keystrokes-and-timing-attacks-ssh>
+    2. Defense not implmemented until 2023: <https://undeadly.org/cgi?action=article;sid=20230829051257>
+
 ## How Tracking Works
+
+Due to modern https encryption, "upstream" surveillance is not effective
+
+### Anti-scraping Trick 1: headers
 
 Reference: <https://www.wallarm.com/what/http-headers>
 
@@ -98,8 +121,6 @@ Every web connection has "header" information.
 <img width=400px src=img/headers.jpeg />
 
 Big list of user agents: <https://deviceatlas.com/blog/list-of-user-agent-strings>
-
-### Anti-scraping Trick 1: headers
 
 Websites can use headers to block scrapers.
 
@@ -207,3 +228,7 @@ These "fingerprints" can be used to guess if a connection is from a human or a b
 The [undetected-playwright](https://github.com/QIN2DIM/undetected-playwright?tab=readme-ov-file#sync) python library can be used to provide javascript fingerprints that "look human".
 
 For the ebay assignment, you may need to modify `download_html_and_run_javascript` to use the undetected-playwright library.
+
+### Constant battle: scraping vs anti-scraping, tracking vs anti-tracking
+
+<img width=400px src=img/Strip-Hackers-VS-Security-team-650-finalenglish1.jpg />
